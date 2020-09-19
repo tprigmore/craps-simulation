@@ -16,4 +16,7 @@ public class CrookedDie1 extends Die
 		return "A CrookedDie1 always rolling 3, and... " + " " + super.toString(); // + super.toString();
 	}
 
+	public static String testStatic() {
+		return "CrookedDie1.testStatic()";
+	}
 }

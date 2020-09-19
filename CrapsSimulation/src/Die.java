@@ -46,4 +46,8 @@ public class Die
 	{
 		return msg + this.toString() ;
 	}
+	
+	public static String testStatic() {
+		return "Die.testStatic()";
+	}
 }

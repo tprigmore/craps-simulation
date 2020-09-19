@@ -20,5 +20,9 @@ public class CrookedDie2 extends Die // subclassing
 	{
 		return "A CrookedDie2 rolling 1,2,3,4,5,6 in sequence, and... " + " " + super.toString();
 	}
+	
+	public static String testStatic() {
+		return "CrookedDie2.testStatic()";
+	}
 
 }
